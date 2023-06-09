@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(utils)
 add_subdirectory(04_23Daschenko01010542)
+add_subdirectory(04_23Daschenko01010101)
