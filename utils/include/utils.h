@@ -5,8 +5,7 @@
 #ifndef CPP_PRO_HOMEWORK_UTILS_H
 #define CPP_PRO_HOMEWORK_UTILS_H
 
-#include <string>
-
-int readInt(const std::string & message);
+#include "legacy_console.h"
+#include "console.h"
 
 #endif //CPP_PRO_HOMEWORK_UTILS_H
