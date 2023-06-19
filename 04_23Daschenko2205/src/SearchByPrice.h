@@ -6,6 +6,7 @@
 #define CPP_PRO_HOMEWORK_SEARCHBYPRICE_H
 
 #include <iostream>
+#include <algorithm>
 
 #include "Struct.h"
 

@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-#include "Struct.h">
+#include "Struct.h"
 
 std::vector<Video> searchByTitle(const std::vector<Video> &videos, const std::string &title) {
     std::vector<Video> results;

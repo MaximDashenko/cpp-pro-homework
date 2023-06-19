@@ -11,15 +11,19 @@
 
 void addNewVideo(std::vector<Video> &videos) {
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ігноруємо новий рядок після вводу числа
+
     std::cout << "Enter title: ";
     std::string title;
     std::getline(std::cin, title);
+
     std::cout << "Enter director: ";
     std::string director;
     std::getline(std::cin, director);
+
     std::cout << "Enter genre: ";
     std::string genre;
     std::getline(std::cin, genre);
+
     std::cout << "Enter popularity rating: ";
     double popularityRating;
     std::cin >> popularityRating;
